@@ -1,0 +1,64 @@
+body {
+  background-color: #418cd8;
+}
+.header {
+  height: 85px;
+  display: grid;
+  align-items: center;
+  background-color: #fafafa;
+}
+.logo {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  justify-self: start;
+  vertical-align: center;
+}
+.links {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  justify-self: end;
+  justify-content: center;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.user-input {
+  display: flex;
+  height: 5%;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.data-field {
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.button {
+  font-size: 15px;
+  margin-left: 10px;
+  text-align: center;
+}
+.results {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+table {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  background-color: MediumSeaGreen;
+}
+caption {
+  font-size: 20px;
+}
