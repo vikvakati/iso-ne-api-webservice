@@ -150,7 +150,7 @@ function getResponse(url) {
 
   //API credentials
   var username = "vakativ@wit.edu";
-  var pass = "Soccerman";
+  var pass = "testAPI123";
 
   //wait for API response then return parsed json
   return (
